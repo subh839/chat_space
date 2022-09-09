@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat-Space | Join</title>
+</head>
+
+<body class="bg-dark">
+    <div class="join-container bg-primary p-5 rounded mx-auto my-5">
+        <header class="join-header mb-4">
+            <h1 class="fw-bold">Chatting-Space</h1>
+           
+        </header>
+        <hr class="mb-4">
+        <main class="join-main">
+            <form action="chat.html">
+                <div>
+                    <label for="username">Username</label>
+                    <input class="form-control" type="text" name="username" id="username"
+                        placeholder="Enter your name..." required />
+                </div>
+                <div>
+                    <label for="room">Room</label>
+                    <select class="form-select" name="room" id="room">
+                        <option value="College">College</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Office">Office</option>
+                        <option value="Help">Help</option>
+                        <option value="Education">Education</option>
+                        <option value="Food">Food</option>
+                        <option value="Literature">Litearure</option>
+                        <option value="Fandom">Fandom</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Lifestyle">Lifestyle</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-dark">Join Chat&nbsp;&nbsp;<i class="fa-solid fa-right-to-bracket"></i></button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
